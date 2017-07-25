@@ -16,6 +16,8 @@ public class Account {
     private String password;
     private String password_question;
     private String password_answer;
+    private String email;
+    private String phone;
 
     public Object getId() {
         return _id;
@@ -64,7 +66,21 @@ public class Account {
     public void setPassword_answer(String password_answer) {
         this.password_answer = password_answer;
     }
-    
-    
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
 
 }

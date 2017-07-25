@@ -13,6 +13,7 @@ public class Info {
     private String status;
     private String message;
     private String code;
+    private String token;
 
     public String getStatus() {
         return status;
@@ -36,6 +37,14 @@ public class Info {
 
     public void setCode(String code) {
         this.code = code;
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
     }
     
 }
